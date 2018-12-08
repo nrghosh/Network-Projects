@@ -1,8 +1,6 @@
-#
-# COMP 332, Spring 2018
 # Chat client
 
-# Nikhil Ghosh
+# Author: Nikhil Ghosh
 
 import socket
 import sys
