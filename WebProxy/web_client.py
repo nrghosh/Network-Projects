@@ -1,14 +1,12 @@
 #!/usr/bin/python3
 #
-# Wesleyan University
-# COMP 332, Spring 2018
-# Homework 3: Simple web client to interact with proxy
+# Simple web client to interact with proxy
 #
 # Example usage:
 #
 #   python3 web_client.py <proxy_host> <proxy_port> <requested_url>
 #
-# Nikhil Ghosh
+# Author: Nikhil Ghosh
 
 # Python modules
 import binascii
