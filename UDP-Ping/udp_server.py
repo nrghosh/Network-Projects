@@ -1,7 +1,5 @@
 #######################################
-# Nikhil Ghosh
-# COMP 332: Networks
-# Homework 6
+# Author: Nikhil Ghosh
 #######################################
 
 import socketserver
