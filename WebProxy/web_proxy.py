@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 #
-# Wesleyan University
-# COMP 332, Spring 2018
-# Homework 3: Simple multi-threaded web proxy
+# Simple multi-threaded web proxy
 
 # Usage:
 #   python3 web_proxy.py <proxy_host> <proxy_port> <requested_url>
 #
-# Nikhil Ghosh
+# Author: Nikhil Ghosh
 
 # Python modules
 import socket
