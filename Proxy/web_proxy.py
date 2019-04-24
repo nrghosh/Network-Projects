@@ -63,7 +63,7 @@ class WebProxy():
         pathname = http_util.get_http_field(str_req, 'GET ', ' HTTP/1.1')
         if hostname == -1 or pathname == -1:
             print ("Cannot determine host")
-            client_conn.close()
+            conn.close()
             return
         elif pathname[0] != '/':
             [hostname, pathname] = http_util.parse_url(pathname)

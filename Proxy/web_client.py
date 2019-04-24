@@ -32,7 +32,7 @@ class WebClient:
             proxy_sock.connect((self.proxy_host, self.proxy_port))
             print("Connected to socket")
         except OSError as e:
-            print("Unable to connect to socket: ", message)
+            print("Unable to connect to socket: ", e)
             if proxy_sock:
                 proxy_sock.close()
             sys.exit(1)
