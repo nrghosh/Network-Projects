@@ -35,7 +35,7 @@ class UDPClient:
         # Ping the address 10 times
         for i in range(0,10):
             # Use the .sendto function to send the encoded message to the address we created
-            clientSock.sendto(encodeMsg, addr)       
+            clientSock.sendto(encoded_msg, addr)       
             # Create and set a start time for the tmer
             start = time.time()
 
