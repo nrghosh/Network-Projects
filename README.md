@@ -1,5 +1,5 @@
-# Network-Projects
+# A Few Network Projects
 
-- Chat App
-- UDP Ping
-- Proxy Model
+- Chat: A distributed multi-user chat application using socket programming.
+- Ping: A UDP ping application with timeout functionality.
+- Proxy: Caching and conditional GETs with a client/proxy implementation
